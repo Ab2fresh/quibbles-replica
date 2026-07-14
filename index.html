@@ -1,0 +1,738 @@
+index.html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quibbles</title>
+    <link rel="icon" href="image/logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="index.html" class="logo"
+        ><img src="image/logo.png" alt="Quibbles logo"
+      /></a>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Search Quibbles" />
+      </div>
+
+      <div class="header-right">
+        <button class="btn-create">Create New!</button>
+        <span class="icon-btn" title="Notifications">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9" />
+            <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+          </svg>
+        </span>
+        <a href="#" class="user-chip">
+          <img src="image/avatar.svg" alt="Ab_oloba avatar" />
+          <span>Ab_oloba</span>
+        </a>
+      </div>
+    </header>
+
+    <div class="layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="active"
+              ><svg
+                class="nav-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M3 10.5 12 3l9 7.5" />
+                <path d="M5 9.5V21h14V9.5" /></svg
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><svg
+                class="nav-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 3" /></svg
+              >Latest</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><svg
+                class="nav-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M3 21V10M10 21V3M17 21v-7" /></svg
+              >Trending</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><svg
+                class="nav-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M21 11.5a8.4 8.4 0 0 1-8.9 8.4A9 9 0 1 1 3 9.5a8.4 8.4 0 0 1 8-6.9 8.4 8.4 0 0 1 10 8.9Z"
+                /></svg
+              >Chat</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><svg
+                class="nav-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 8v8M8 12h8" /></svg
+              >Create New Post</a
+            >
+          </li>
+        </ul>
+
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">
+            COMMUNITIES <a href="#" class="create-link">Create</a>
+          </div>
+          <ul class="community-list">
+            <li>
+              <a href="#"><span class="dot dot-all"></span>All Communities</a>
+            </li>
+            <li>
+              <a href="#"
+                ><span class="dot dot-interaction"></span>q/interaction</a
+              >
+            </li>
+            <li>
+              <a href="#"><span class="dot dot-news"></span>q/NEWS</a>
+            </li>
+            <li>
+              <a href="#"><span class="dot dot-gist"></span>q/gist_corner</a>
+            </li>
+            <li>
+              <a href="#"><span class="dot dot-jobs"></span>q/Jobs</a>
+            </li>
+            <li>
+              <a href="#"><span class="dot dot-nigeria"></span>q/Nigeria</a>
+            </li>
+            <li>
+              <a href="#"><span class="dot dot-education"></span>q/Education</a>
+            </li>
+            <li>
+              <a href="#"><span class="dot dot-health"></span>q/Health</a>
+            </li>
+            <li>
+              <a href="#"><span class="dot dot-worldcup"></span>q/World_Cup</a>
+            </li>
+            <li>
+              <a href="#"
+                ><span class="dot dot-entertainment"></span>q/Entertainment</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span class="dot dot-relationship"></span>q/Relationship</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">RESOURCES</div>
+          <ul class="resource-list">
+            <li>
+              <a href="about.html"
+                ><svg
+                  class="resource-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 8h.01M11 12h1v5h1" /></svg
+                >About Quibbles</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><svg
+                  class="resource-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="m3 11 18-5v12L3 14v-3Z" />
+                  <path d="M7 14v5a2 2 0 0 0 2 2h1v-6" /></svg
+                >Advertise</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><svg
+                  class="resource-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="m12 2 2.9 6 6.6.9-4.8 4.6 1.1 6.5L12 17l-5.8 3 1.1-6.5L2.5 8.9 9.1 8 12 2Z"
+                  /></svg
+                >Request Feature</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><svg
+                  class="resource-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path
+                    d="M9.5 9a2.5 2.5 0 0 1 5 0c0 1.7-2.5 2-2.5 3.5M12 17h.01"
+                  /></svg
+                >Help</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><svg
+                  class="resource-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="7" y="8" width="10" height="11" rx="4" />
+                  <path
+                    d="M9 8V6a3 3 0 0 1 6 0v2M4 12h3M17 12h3M4 16h2M18 16h2M9.5 4.5l-1-1M14.5 4.5l1-1"
+                  /></svg
+                >Report Bug</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><svg
+                  class="resource-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polyline points="8 6 2 12 8 18" />
+                  <polyline points="16 6 22 12 16 18" /></svg
+                >Version 1.6.8.0</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="social-row">
+          <a href="#" title="Instagram"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <rect x="3" y="3" width="18" height="18" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.5" cy="6.5" r="1" /></svg
+          ></a>
+          <a href="#" title="Twitter"
+            ><svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M22 5.9c-.7.3-1.5.6-2.3.7.8-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1a4.1 4.1 0 0 0-7 3.7A11.6 11.6 0 0 1 3.4 4.6a4.1 4.1 0 0 0 1.3 5.5c-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.6 3.3 4a4.1 4.1 0 0 1-1.9.1 4.1 4.1 0 0 0 3.8 2.9A8.3 8.3 0 0 1 2 18.4a11.6 11.6 0 0 0 6.3 1.9c7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.2Z"
+              /></svg
+          ></a>
+          <a href="#" title="LinkedIn"
+            ><svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.9-2 3.9-2 4.2 0 5 2.7 5 6.3V21h-4v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9Z"
+              /></svg
+          ></a>
+        </div>
+      </aside>
+
+      <!-- Feed -->
+      <main class="feed">
+        <div class="filter-pills">
+          <span class="pill active">Latest Posts</span>
+          <span class="pill">interaction</span>
+          <span class="pill">NEWS</span>
+          <span class="pill">gist_corner</span>
+          <span class="pill">Jobs</span>
+        </div>
+        <div class="filter-pills">
+          <span class="pill">Nigeria</span>
+          <span class="pill">Education</span>
+          <span class="pill">Health</span>
+          <span class="pill">World_Cup</span>
+          <span class="pill">Entertainment</span>
+        </div>
+        <div class="filter-pills">
+          <span class="pill">Relationship</span>
+        </div>
+
+        <!-- Post 1 -->
+        <article class="post-card">
+          <div class="vote-col">
+            <svg
+              class="arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+            >
+              <path d="m5 15 7-7 7 7" />
+            </svg>
+            <span class="count">1</span>
+            <svg
+              class="arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+            >
+              <path d="m19 9-7 7-7-7" />
+            </svg>
+          </div>
+          <div class="post-body">
+            <div class="post-meta">
+              <span class="tag">NEWS</span> · Posted by maemah0123 · 1 hr ago
+            </div>
+            <h2 class="post-title">
+              Meet the founder who raised over $5 million to build one of
+              Africa's leading shared mobility companies Adekunle Agbetiloye
+            </h2>
+            <img
+              class="post-image"
+              src="image/post-founder.jpeg"
+              alt="Portrait of Damilola Olokesusi, Shuttlers founder"
+            />
+            <p class="post-excerpt">
+              For Damilola Olokesusi, Shuttlers wasn't born from a single idea.
+              It grew out of years of navigating Lagos' transport chaos, a
+              family tragedy, and a vision for better mobility. In this edition
+              of Meet the Founder, she shares how she built Shuttlers i...
+            </p>
+            <div class="post-actions">
+              <span
+                ><svg
+                  class="a-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M21 11.5a8.4 8.4 0 0 1-8.9 8.4A9 9 0 1 1 3 9.5a8.4 8.4 0 0 1 8-6.9 8.4 8.4 0 0 1 10 8.9Z"
+                  /></svg
+                >1 Comment</span
+              >
+              <span
+                ><svg
+                  class="a-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="18" cy="5" r="3" />
+                  <circle cx="6" cy="12" r="3" />
+                  <circle cx="18" cy="19" r="3" />
+                  <path d="M8.6 10.6 15.4 6.4M8.6 13.4l6.8 4.2" /></svg
+                >Share</span
+              >
+              <span
+                ><svg
+                  class="a-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M4 15V4c0-.5 3-1.5 6-1.5s4 1.5 6 1.5 3-1 3-1v9s-1.5 1-3 1-3-1.5-6-1.5-6 1-6 1Z"
+                  />
+                  <path d="M4 22v-7" /></svg
+                >Report</span
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="post-card">
+          <div class="vote-col">
+            <svg
+              class="arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+            >
+              <path d="m5 15 7-7 7 7" />
+            </svg>
+            <span class="count">1</span>
+            <svg
+              class="arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+            >
+              <path d="m19 9-7 7-7-7" />
+            </svg>
+          </div>
+          <div class="post-body">
+            <div class="post-meta">
+              <span class="tag">Scholarships</span> · Posted by maemah0123 · 1
+              hr ago
+            </div>
+            <h2 class="post-title">
+              Full List: 10 US Companies Sponsoring H-1B Work Visas for
+              Nigerians in 2026
+            </h2>
+            <img
+              class="post-image"
+              src="image/post-visas.jpeg"
+              alt="Travelers walking with rolling luggage"
+            />
+            <p class="post-excerpt">
+              1. GoogleGoogle continues to recruit international professionals
+              in software engineering, artificial intelligence, cybersecurity,
+              cloud computing, data science and product management. 2.
+              AmazonAmazon remains the largest H-1B sponsor in the US, with m...
+            </p>
+            <div class="post-actions">
+              <span
+                ><svg
+                  class="a-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M21 11.5a8.4 8.4 0 0 1-8.9 8.4A9 9 0 1 1 3 9.5a8.4 8.4 0 0 1 8-6.9 8.4 8.4 0 0 1 10 8.9Z"
+                  /></svg
+                >0 Comments</span
+              >
+              <span
+                ><svg
+                  class="a-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="18" cy="5" r="3" />
+                  <circle cx="6" cy="12" r="3" />
+                  <circle cx="18" cy="19" r="3" />
+                  <path d="M8.6 10.6 15.4 6.4M8.6 13.4l6.8 4.2" /></svg
+                >Share</span
+              >
+              <span
+                ><svg
+                  class="a-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M4 15V4c0-.5 3-1.5 6-1.5s4 1.5 6 1.5 3-1 3-1v9s-1.5 1-3 1-3-1.5-6-1.5-6 1-6 1Z"
+                  />
+                  <path d="M4 22v-7" /></svg
+                >Report</span
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 3 -->
+        <article class="post-card">
+          <div class="vote-col">
+            <svg
+              class="arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+            >
+              <path d="m5 15 7-7 7 7" />
+            </svg>
+            <span class="count">1</span>
+            <svg
+              class="arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+            >
+              <path d="m19 9-7 7-7-7" />
+            </svg>
+          </div>
+          <div class="post-body">
+            <div class="post-meta">
+              <span class="tag">interaction</span> · Posted by maemah0123 · 1 hr
+              ago
+            </div>
+            <h2 class="post-title">Does Stretching Make You Taller?</h2>
+            <img
+              class="post-image"
+              src="image/post-stretching.jpeg"
+              alt="Woman doing a lunge stretch at home"
+            />
+            <p class="post-excerpt">
+              Having trouble reaching the top shelf or keeping your head above
+              water, and want to do something about it?Stretching won't
+              technically get you any closer to the shelf or help you stand
+              above water in the pool, but it can help you feel taller if you...
+            </p>
+            <div class="post-actions">
+              <span
+                ><svg
+                  class="a-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M21 11.5a8.4 8.4 0 0 1-8.9 8.4A9 9 0 1 1 3 9.5a8.4 8.4 0 0 1 8-6.9 8.4 8.4 0 0 1 10 8.9Z"
+                  /></svg
+                >1 Comment</span
+              >
+              <span
+                ><svg
+                  class="a-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="18" cy="5" r="3" />
+                  <circle cx="6" cy="12" r="3" />
+                  <circle cx="18" cy="19" r="3" />
+                  <path d="M8.6 10.6 15.4 6.4M8.6 13.4l6.8 4.2" /></svg
+                >Share</span
+              >
+              <span
+                ><svg
+                  class="a-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M4 15V4c0-.5 3-1.5 6-1.5s4 1.5 6 1.5 3-1 3-1v9s-1.5 1-3 1-3-1.5-6-1.5-6 1-6 1Z"
+                  />
+                  <path d="M4 22v-7" /></svg
+                >Report</span
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 4 -->
+        <article class="post-card">
+          <div class="vote-col">
+            <svg
+              class="arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+            >
+              <path d="m5 15 7-7 7 7" />
+            </svg>
+            <span class="count">1</span>
+            <svg
+              class="arrow"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+            >
+              <path d="m19 9-7 7-7-7" />
+            </svg>
+          </div>
+          <div class="post-body">
+            <div class="post-meta">
+              <span class="tag">Education</span> · Posted by maemah0123 · 1 hr
+              ago
+            </div>
+            <h2 class="post-title">
+              Four ways to help your teen (and yourself) spend more time away
+              from devices
+            </h2>
+            <img
+              class="post-image"
+              src="image/post-teens.jpeg"
+              alt="Mother and teenage son looking at their phones on a couch"
+            />
+            <p class="post-excerpt">
+              How are teens more affected? Teenagers are particularly vulnerable
+              to excessive device use, with the part of the brain responsible
+              for planning, imagining consequences and working for delayed
+              rewards not yet fully developed...
+            </p>
+            <div class="post-actions">
+              <span
+                ><svg
+                  class="a-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M21 11.5a8.4 8.4 0 0 1-8.9 8.4A9 9 0 1 1 3 9.5a8.4 8.4 0 0 1 8-6.9 8.4 8.4 0 0 1 10 8.9Z"
+                  /></svg
+                >1 Comment</span
+              >
+              <span
+                ><svg
+                  class="a-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="18" cy="5" r="3" />
+                  <circle cx="6" cy="12" r="3" />
+                  <circle cx="18" cy="19" r="3" />
+                  <path d="M8.6 10.6 15.4 6.4M8.6 13.4l6.8 4.2" /></svg
+                >Share</span
+              >
+              <span
+                ><svg
+                  class="a-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M4 15V4c0-.5 3-1.5 6-1.5s4 1.5 6 1.5 3-1 3-1v9s-1.5 1-3 1-3-1.5-6-1.5-6 1-6 1Z"
+                  />
+                  <path d="M4 22v-7" /></svg
+                >Report</span
+              >
+            </div>
+          </div>
+        </article>
+      </main>
+
+      <!-- Right column -->
+      <aside class="right-col">
+        <div class="ad-box">Advertisement Space</div>
+
+        <div class="recommended-title">RECOMMENDED POSTS</div>
+
+        <div class="rec-card">
+          <div class="rec-avatar"></div>
+          <div class="rec-body">
+            <div class="rec-meta">
+              <span class="tag">q/PlayZone</span> · 2 days ago
+            </div>
+            <p class="rec-text">
+              🟢🔤 EMOJI + LETTERS GUESS THE NOUN 🎯🌍 Can you crack these? 🚗
+              🅰 den = 🏡 Drop your answers in the comments!
+            </p>
+            <div class="rec-stats">
+              <span>146 votes</span><span>449 comments</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="rec-card">
+          <div class="rec-avatar"></div>
+          <div class="rec-body">
+            <div class="rec-meta">
+              <span class="tag">q/PlayZone</span> · 2 days ago
+            </div>
+            <p class="rec-text">
+              🟢🔤 EMOJI + LETTERS GUESS THE NOUN 🎯🌍 Can you crack these? 🚗
+              🅰 Ja land = 🏡 Drop your answers in the comments!
+            </p>
+            <div class="rec-stats">
+              <span>107 votes</span><span>414 comments</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="rec-card">
+          <div class="rec-avatar"></div>
+          <div class="rec-body">
+            <div class="rec-meta">
+              <span class="tag">q/PlayZone</span> · 3 days ago
+            </div>
+            <p class="rec-text">Day 21! 🔥🎯 222PLAYZONE</p>
+            <div class="rec-stats">
+              <span>103 votes</span><span>40 comments</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="rec-card">
+          <div class="rec-avatar"></div>
+          <div class="rec-body">
+            <div class="rec-meta">
+              <span class="tag">q/gist_corner</span> · 17 days ago
+            </div>
+            <p class="rec-text">Who else is from x?</p>
+            <div class="rec-stats">
+              <span>95 votes</span><span>60 comments</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="rec-card">
+          <div class="rec-avatar"></div>
+          <div class="rec-body">
+            <div class="rec-meta">
+              <span class="tag">q/QuibblesRewardsHub</span> · 3 days ago
+            </div>
+            <p class="rec-text">PLAYZONE 3.0 Sponsored By Quibbles Guys</p>
+            <div class="rec-stats">
+              <span>71 votes</span><span>52 comments</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
